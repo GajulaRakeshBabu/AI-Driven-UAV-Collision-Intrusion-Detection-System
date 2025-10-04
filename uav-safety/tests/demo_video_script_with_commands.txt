@@ -1,0 +1,49 @@
+AI-Driven UAV Collision & Intrusion Detection System
+National Level Hackathon Demo Script with Running Commands
+
+[Opening Scene]
+- Visual: Project logo and title animation
+- Narration: "Welcome to the AI-Driven UAV Collision and Intrusion Detection System, a cutting-edge solution designed to enhance the safety and security of unmanned aerial vehicles in complex airspaces."
+
+[Scene 1: Problem Statement]
+- Visual: Footage of congested airspace, drones flying near buildings, and potential collision scenarios
+- Narration: "With the rapid growth of UAV applications, ensuring safe navigation and preventing collisions or unauthorized intrusions has become a critical challenge. Our project addresses these challenges using state-of-the-art AI technologies."
+
+[Scene 2: Project Overview]
+- Visual: Animated flowchart showing system components: Data Input, Object Detection, Flight Path Generation, Collision Prediction, Intrusion Detection, and Dashboard Visualization
+- Narration: "Our system integrates multiple components: real-time object detection using YOLOv8, synthetic UAV flight path generation, collision prediction algorithms, intrusion detection in restricted zones, and a user-friendly dashboard for monitoring."
+
+[Scene 3: YOLOv8 Object Detection Demo]
+- Visual: Screen capture of running the YOLO demo script on sample video, showing bounding boxes around drones, airplanes, and birds
+- Narration: "We leverage the powerful YOLOv8 model to detect drones and other aerial objects in video feeds with high accuracy and speed. Here, you can see the model identifying multiple objects in a sample video."
+- Command: `python scripts/run_yolo_demo.py`
+
+[Scene 4: Flight Path Generation and Visualization]
+- Visual: Display generated UAV flight paths on 2D plots, highlighting paths and waypoints
+- Narration: "Our system generates synthetic UAV flight paths to simulate real-world scenarios. These paths are visualized in 2D, providing insights into UAV movements and potential conflict zones."
+- Command: `python scripts/generate_flights.py`
+
+[Scene 5: Collision Prediction]
+- Visual: Show collision prediction script output with closest approach times and minimum distances
+- Narration: "Using advanced algorithms, we predict potential collisions by calculating the closest approach between UAVs, enabling proactive safety measures."
+- Command: `python scripts/check_collision.py`
+
+[Scene 6: Intrusion Visualization]
+- Visual: Show 2D visualization of UAV flight paths with intrusion alerts marked, saved plots, and JSON alert logs
+- Narration: "We provide detailed visualization of UAV flight paths and intrusion alerts, helping to analyze and understand UAV movements in relation to restricted zones."
+- Command: `python scripts/visualize.py`
+
+[Scene 7: Streamlit Dashboard]
+- Visual: Navigate through the interactive dashboard showing live collision and intrusion statuses, color-coded alerts, and dynamic charts
+- Narration: "All data and alerts are consolidated into a clean, intuitive Streamlit dashboard. It provides real-time updates, visualizes collision risks, intrusion events, and historical trends for effective monitoring."
+- Command: `streamlit run streamlit_app.py`
+
+[Scene 8: Technical Highlights]
+- Visual: Brief code snippets and architecture diagrams
+- Narration: "Built with Python, leveraging ultralytics YOLOv8 for detection, pandas and matplotlib for data processing and visualization, and Streamlit for the dashboard, our system is modular, scalable, and easy to extend."
+
+[Closing Scene]
+- Visual: Project logo and team credits
+- Narration: "Thank you for watching our demo. The AI-Driven UAV Collision & Intrusion Detection System is a step forward in ensuring safer skies for UAV operations. We look forward to your support and feedback."
+
+[End]
