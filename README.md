@@ -1,6 +1,6 @@
 # 🚁 AI-Driven UAV Collision & Intrusion Detection System
 
-![UAV Safety Banner](c:\Users\grake\OneDrive\Pictures\Screenshots 1\Screenshot 2025-10-05 160158.png c:\Users\grake\OneDrive\Pictures\Screenshots 1\Screenshot 2025-10-05 224205.png)
+<img width="1919" height="1077" alt="Screenshot 2025-10-05 231307" src="https://github.com/user-attachments/assets/34c5d214-7305-4a82-b0fc-03231330528f" />
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -91,19 +91,15 @@ streamlit run streamlit_app.py
 Access the dashboard at `http://localhost:8501` for interactive monitoring.
 
 ## 📸 Screenshots
-![alt text](<Screenshot 2025-10-05 223543.png>)
-![alt text](<Screenshot 2025-10-05 223708.png>)
-![alt text](<Screenshot 2025-10-05 224000.png>)
-![alt text](<Screenshot 2025-10-05 224145.png>)
-![alt text](<Screenshot 2025-10-05 224205.png>)
 ### Flight Path Visualization
-![Flight Paths](runs/flight_paths.png)
+<img width="1919" height="1199" alt="Screenshot 2025-10-05 223543" src="https://github.com/user-attachments/assets/8ed09f92-cada-4af6-ab3c-b88f741769e7" />
 
 ### UAV Paths with Alerts
-![Paths with Alerts](runs/paths.png)
+<img width="1919" height="1199" alt="Screenshot 2025-10-05 223708" src="https://github.com/user-attachments/assets/57eb5bbe-078e-4574-b65b-18026e9cd606" />
 
 ### Streamlit Dashboard
-![Dashboard](https://via.placeholder.com/800x400?text=Streamlit+Dashboard+Screenshot)
+<img width="1862" height="1199" alt="Screenshot 2025-10-05 224145" src="https://github.com/user-attachments/assets/f39594de-97fd-4ea4-9af3-d62a5abc085e" />
+<img width="1854" height="1199" alt="Screenshot 2025-10-05 224205" src="https://github.com/user-attachments/assets/7cb1e25f-9fef-42cb-bbf0-1089fd9a4a35" />
 
 ## 📁 Project Structure
 
